@@ -10,6 +10,13 @@ div{
    border: rgb(172, 255, 103) 5px solid;
    background-color: aqua;
 }
-div:hover{
-   background-color: rgb(5, 187, 178);
+
+.zolty{
+   background-color: yellow;
+}
+.szeroki{
+   width: 600px;
+}
+#czerwony{
+   background-color: red;
 }
