@@ -1,19 +1,78 @@
 *{
-   margin: 0;
-   padding: 0;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.hidden{
+    display: none;
+}
+
+/* HEADER ------------------------------------------------------*/
 
 .header-main{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   height: 340px;
-   background-color: #353535;
-   background-image: url(img/rakieta2.png);
-   background-repeat: no-repeat;
-   background-position: left bottom;
-   background-size: 365px;
-
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 340px;
+    background-color: #353535;
+    background-image: url(img/rakieta2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 365px;
 }
+
+/* OFFERS ------------------------------------------------------*/
+
+.offers{
+    background-color: #17171A;
+}
+
+.offers-single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: rgba(117, 185, 157, 0.39);
+}
+
+.offers-single img{
+    width: 200px; 
+    margin-bottom: 20px;
+}
+
+.offers-single h3{
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.offers-single p{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.offers-single a{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #F1B26F;
+    color: #17171A;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: .3s;
+    font-size: 13px;
+}
+
+.offers-single a:hover{
+    background-color: #fff;
+}
+
