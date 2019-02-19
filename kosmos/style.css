@@ -119,6 +119,7 @@
 
 .navbar a{
     text-decoration: none;
+    height: 80px;
 }
 
 .navbar a img{
