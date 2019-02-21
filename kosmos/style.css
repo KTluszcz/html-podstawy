@@ -148,7 +148,7 @@ body{
 
 .wanted{
     display: flex;
-    height:600px;
+    height:550px;
     background-color: #c63d3d;
     padding-top: 75px;
     flex-direction:column;
