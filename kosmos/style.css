@@ -8,6 +8,9 @@
     display: none;
 }
 
+body{
+    padding-top: 80px;
+}
 /* HEADER ------------------------------------------------------*/
 
 .header-main{
@@ -15,7 +18,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 340px;
+    height: 360px;
     background-color: #353535;
     background-image: url(img/rakieta2.png);
     background-repeat: no-repeat;
@@ -29,7 +32,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: #17171A;
+    background-color: rgb(44, 44, 44);
 }
 
 .offers-single{
@@ -38,7 +41,7 @@
     align-items: center;
     width: 250px;
     margin: 20px;
-    background-color: #17171A;
+    background-color: rgb(44, 44, 44);
 }
 
 .offers-single img{
@@ -85,27 +88,13 @@
 
 .opis{
     display: flex;
-    height: 250px;
-    background-color: rgb(23, 71, 71);
+    align-content: center;
+    background-color:#253D47;
 }
 
-.opis-single{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px;
-    margin: 20px;
-    background-color: #17171A;
+.opis article img{
+    height:400px;
 }
-.opis-single h3{
-    font-family: sans-serif;
-    font-weight: normal;
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
 /* NAVBAR ------------------------------------------------------*/
 
 .navbar{
@@ -114,6 +103,9 @@
     background-color: #fff;
     align-items: center;
     justify-content: space-between;
+    position:fixed;
+    top: 0;
+    width:100%;
     
 }
 
@@ -128,7 +120,44 @@
 
 .navbar ul{
     display: flex;
+    width: 500px;
+    margin-right: 100px;
     list-style: none;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+
+.navbar ul li a{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-weight: bold;
+    color: #353535;
+    font-size: 30px;
+    text-align: center;
+    background-color: #F1B26F;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.navbar ul li a:hover{
+    background-color:rgb(250, 222, 66);
+}
+
+/* WANTED ------------------------------------------------------*/
+
+.wanted{
+    display: flex;
+    height:600px;
+    background-color: #c63d3d;
+    padding-top: 75px;
+    flex-direction:column;
+    align-items:center;
+}
+
+.wanted a{
+    display: flex;
+    width:100%;
+    padding-top:30px;
+    justify-content: space-evenly;
 }
