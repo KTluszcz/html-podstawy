@@ -151,7 +151,7 @@ body{
     height:550px;
     background-color: #c63d3d;
     padding-top: 75px;
-    flex-direction:column;
+    flex-flow: column wrap;
     align-items:center;
 }
 
